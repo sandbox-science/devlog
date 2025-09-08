@@ -24,7 +24,7 @@
 - 📝 Add timestamped notes during a session
 - 🎟️ Add timestamped git activity during a session
 - 📂 Export sessions as Markdown and HTML logs
-- 📁 Organized logs stored in `~/.devlog/sessions/`
+- 📁 Organized logs stored in `~/.config/devlog/sessions/`
 
 ---
 
@@ -81,9 +81,9 @@ dashboard
 exit
 ```
 
-- All **JSON** session are saved in `~/.devlog/sessions/{timestamp}.json`
-- All exported **HTML** sessions are saved in `~/.devlog/sessions/dashboard/index.html`
-- All exported **Markdown** sessions are saved in `~/.devlog/sessions/{timestamp}.md`
+- All **JSON** session are saved in `~/.config/devlog/sessions/{timestamp}.json`
+- All exported **HTML** sessions are saved in `~/.config/devlog/sessions/dashboard/index.html`
+- All exported **Markdown** sessions are saved in `~/.config/devlog/sessions/{timestamp}.md`
 
 ## Engineering Requirement Document
 
