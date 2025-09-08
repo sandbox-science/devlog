@@ -12,7 +12,7 @@ from .export import Export
 
 app = typer.Typer()
 
-DATA_DIR = Path.home() / ".devlog" / "sessions"
+DATA_DIR = Path.home() / ".config" / "devlog" / "sessions"
 CURRENT = DATA_DIR.parent / "current.json"
 DASH_DIR = DATA_DIR / "dashboard"
 
